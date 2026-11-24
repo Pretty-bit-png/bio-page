@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Mandisi Mfila Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header>
+    <h1>Mandisi Mfila</h1>
+    <p>Personal Portfolio | System Development Learner</p>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main id="main">
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="eyebrow">Welcome to my portfolio</p>
+
+                <h2>Building My Future in Technology</h2>
+
+                <p>
+               <p>I am a System Development learner. I am practising Git and GitHub.</p> developing my knowledge
+                    of web development, programming and digital technology.
+                    This portfolio presents my skills, learning journey and work.
+                </p>
+
+                <a href="about.html" class="btn">Discover My Story</a>
+                <a href="projects.html" class="btn">Explore My Projects</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="pic.png.jpg" alt="Photo of Mandisi Mfila, owner of this personal portfolio">
+            </div>
+        </div>
+
+        <p>
+            Learn more about web development:
+            <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+                Visit W3Schools
+            </a>
+        </p>
+    </section>
+
+    <section>
+        <h3>About My Portfolio</h3>
+
+        <p>
+            My personal portfolio is a website where I introduce myself,
+            explain the skills I am learning and showcase my development
+            work. It also allows me to practise designing professional
+            websites using HTML and CSS.
+        </p>
+    </section>
+
+    <section>
+        <h4>What You Can Explore</h4>
+
+        <div class="card-container">
+            <article class="card">
+                <h3>About Me</h3>
+                <p>Learn about my background and career goals.</p>
+                <a href="about.html">Read About Me</a>
+            </article>
+
+            <article class="card">
+                <h3>My Projects</h3>
+                <p>Explore my portfolio website and the technologies used.</p>
+                <a href="projects.html">View Project Details</a>
+            </article>
+
+            <article class="card">
+                <h3>Contact Me</h3>
+                <p>Find out how to contact me professionally.</p>
+                <a href="contact.html">Contact Page</a>
+            </article>
+        </div>
+    </section>
+
+   <section class="projects-grid" id="projectsGrid">
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required minlength="2">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+                <option value="general">General question</option>
+                <option value="project">Project idea</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <fieldset>
+                <legend>Preferred reply</legend>
+
+                <label>
+                    <input type="radio" name="reply" value="email" required>
+                    Email
+                </label>
+
+                <label>
+                    <input type="radio" name="reply" value="phone">
+                    Phone
+                </label>
+            </fieldset>
+
+            <label for="phone">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9-]+"
+                title="Enter digits and dashes only"
+            >
+
+            <label>
+                <input type="checkbox" name="copy">
+                Send me a copy of this message
+            </label>
+
+            <button type="submit">Send</button>
+
+        </form>
+        <p id="formMessage" role="status"></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Mandisi Mfila </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

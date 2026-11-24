@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project | Mandisi Mfila</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Personal Portfolio Project</h1>
+    <p>Project Details and Technologies</p>
+</header>
+
+<nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main id="main">
+
+    <section class="hero">
+        <p class="eyebrow">My web development project</p>
+        <h1>Personal Portfolio Website</h1>
+        <p>
+            This project presents my background, skills, goals and
+            learning journey through a professional multi-page website.
+        </p>
+    </section>
+
+    <section>
+        <h2>1. Project Overview</h2>
+        <p>
+            The purpose of this project is to create a personal website
+            that introduces me and displays my development knowledge.
+            The website uses separate pages connected through a
+            navigation menu.
+        </p>
+
+        <h3>Project Objectives</h3>
+        <ul>
+            <li>Introduce myself and my career goals.</li>
+            <li>Present my skills and learning progress.</li>
+            <li>Practise HTML page structure.</li>
+            <li>Use CSS for colours, borders, fonts and layout.</li>
+            <li>Connect pages using working navigation links.</li>
+            <li>Make the website readable on computers and phones.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Website Pages</h2>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Page</th>
+                        <th>Purpose</th>
+                        <th>Main Content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Home</td>
+                        <td>Welcomes visitors</td>
+                        <td>Introduction and portfolio overview</td>
+                    </tr>
+                    <tr>
+                        <td>About</td>
+                        <td>Introduces me</td>
+                        <td>Background, journey and career goals</td>
+                    </tr>
+                    <tr>
+                        <td>Projects</td>
+                        <td>Explains my work</td>
+                        <td>Project information and technologies</td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td>
+                        <td>Helps visitors contact me</td>
+                        <td>Contact information</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Technologies Used</h2>
+        <p>
+            Choose a technology from the options below to learn more
+            about what it does and how it relates to web development.
+        </p>
+
+        <label for="technology">Select a technology:</label>
+
+        <select id="technology">
+            <option value="html">HTML — Website Structure</option>
+            <option value="css">CSS — Website Design</option>
+            <option value="java">Java — Programming</option>
+        </select>
+
+        <div class="detail-panel" id="technology-details" aria-live="polite">
+            <h3 id="technology-title">HTML — Website Structure</h3>
+
+            <p id="technology-description">
+                HTML provides the structure and content of a web page.
+            </p>
+
+            <h4>What it is used for</h4>
+
+            <ul id="technology-list">
+                <li>Creating headings and paragraphs.</li>
+                <li>Adding links and navigation.</li>
+                <li>Organising lists, tables and sections.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Technology Comparison Table</h2>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Main Purpose</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Structures web content</td>
+                        <td>Headings, lists and links</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Styles web pages</td>
+                        <td>Colours, fonts and borders</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Creates programs and applications</td>
+                        <td>Variables and calculations</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            HTML and CSS are used to create and style this website.
+            Java is a programming language I am learning separately.
+        </p>
+    </section>
+
+    <section>
+        <h2>5. Features of My Portfolio</h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>Navigation</h3>
+                <p>Visitors can move between the four website pages.</p>
+                <span class="tag">HTML</span>
+            </article>
+
+            <article class="project-card">
+                <h3>Consistent Design</h3>
+                <p>All pages share the same colours, fonts and layout.</p>
+                <span class="tag">CSS</span>
+            </article>
+
+            <article class="project-card">
+                <h3>Technology Explorer</h3>
+                <p>Visitors can select a technology to read its details.</p>
+                <span class="tag">HTML + JavaScript</span>
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <h2>6. What I Have Learned</h2>
+
+        <ol>
+            <li>How to structure a page using HTML.</li>
+            <li>How to apply a shared stylesheet using CSS.</li>
+            <li>How to connect separate pages using links.</li>
+            <li>How to display information in lists and tables.</li>
+            <li>How JavaScript can respond to a visitor's selection.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>7. My Projects</h2>
+
+        <p>
+            Use the buttons below to filter my projects by category.
+        </p>
+
+        <div class="project-filters">
+            <button type="button" class="btn" data-filter="All">All</button>
+            <button type="button" class="btn" data-filter="HTML">HTML</button>
+            <button type="button" class="btn" data-filter="CSS">CSS</button>
+        </div>
+
+        <section class="projects-grid" id="projectsGrid"></section>
+    </section>
+
+    <section>
+        <h2>Explore More</h2>
+        <p>Learn more about me or return to the homepage.</p>
+
+        <a href="about.html" class="btn">About Me</a>
+        <a href="index.html" class="btn">Back Home</a>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+<script>
+    const technologySelect = document.getElementById("technology");
+    const technologyTitle = document.getElementById("technology-title");
+    const technologyDescription = document.getElementById("technology-description");
+    const technologyList = document.getElementById("technology-list");
+
+    const technologyInformation = {
+        html: {
+            title: "HTML — Website Structure",
+            description: "HTML provides the structure and content of a web page.",
+            points: [
+                "Creating headings and paragraphs.",
+                "Adding links and navigation.",
+                "Organising lists, tables and sections."
+            ]
+        },
+        css: {
+            title: "CSS — Website Design",
+            description: "CSS controls how a website looks and how its content is arranged.",
+            points: [
+                "Choosing colours and fonts.",
+                "Adding borders, spacing and backgrounds.",
+                "Creating responsive layouts for different screens."
+            ]
+        },
+        java: {
+            title: "Java — Programming",
+            description: "Java is a programming language used to build many types of applications.",
+            points: [
+                "Using variables to store information.",
+                "Performing calculations and working with data.",
+                "Practising programming logic and problem-solving."
+            ]
+        }
+    };
+
+    technologySelect.addEventListener("change", function () {
+        const information = technologyInformation[this.value];
+
+        technologyTitle.textContent = information.title;
+        technologyDescription.textContent = information.description;
+        technologyList.replaceChildren();
+
+        information.points.forEach(function (point) {
+            const listItem = document.createElement("li");
+            listItem.textContent = point;
+            technologyList.appendChild(listItem);
+        });
+    });
+</script>
+
+<footer>
+    <p>&copy; 2026 Mandisi Mfila | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
